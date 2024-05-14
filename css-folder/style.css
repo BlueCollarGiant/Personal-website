@@ -1,3 +1,19 @@
-body {
-    background-color: rgb(123, 207, 224);
+body{
+    background-color: #2A2F33;
+}
+
+*{
+    color:#BBB6A5
+}
+
+h1{
+    color:#8C9491
+}
+
+footer p{
+    color:#8C9491
+}
+
+footer a{
+    color:#8C9491
 }

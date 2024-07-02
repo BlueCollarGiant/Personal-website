@@ -12,3 +12,7 @@ Mantle
 
 Manatee
 #8C8C9C
+meduim state blue
+#7371FC
+Redwood
+#9F4A54

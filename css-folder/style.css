@@ -1,37 +1,53 @@
-/*
+
 body {
-    background: linear-gradient(#034a85,#101026);
+    background-color: #101213;
+    background-image:
+    radial-gradient(at 44% 22%, hsla(231,8%,6%,1) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, hsla(199,57%,40%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(243,86%,60%,1) 0px, transparent 50%),
+    radial-gradient(at 83% 41%, hsla(246,38%,46%,1) 0px, transparent 50%),
+    radial-gradient(at 2% 96%, hsla(241,23%,16%,1) 0px, transparent 50%),
+    radial-gradient(at 79% 94%, hsla(272,96%,10%,1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(258,64%,4%,1) 0px, transparent 50%);
     margin: 0;
     padding: 0;
     min-height: 100vh;
     width: 100%;
-    color: #F7F0F0;
+    color: #E6E8E6;
     text-shadow: black 0px 0px 3px;
 }
 
-.header-name {
-    text-align: center;
-    margin: auto;
-    font-size: 5vh;
-    font-family: 'Brush Script MT', cursive;
+.nav {
+    background-color: #4A6FA5;
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
 }
+.nav  a {
+    text-decoration:none;
+ }
 
-.header-job {
-    text-align: center;
-    margin: auto;
-    padding-top: 20px;
-    font-size: 3.5vh;
+.home {
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
-
+.resume {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.contacts {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 .intro {
-    font-family: 'Brush Script MT', cursive;
-    font-size: 3vh;
-    padding: 20px;
+    border: white solid 2px;
+    text-align: center;
+    font-family: Georgia ,serif;
 }
 
-footer {
-    text-align: right;
-    padding: 20px;
-}
+/*
+https://coolors.co/101213-2ca58d-e6e8e6-4392f1-4a6fa5
 
+pallet for background.
 */

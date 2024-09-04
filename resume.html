@@ -10,9 +10,14 @@
       <h1>Mr. Isaiah Ratliff </h1>
       <h2>Fullstack web developer</h2>
       <link rel="stylesheet" href="css-folder/style.css ">
+      <div class="nav">
+        <div class="home"><a href="index.html">Home</a></div>
+        <div class="resume"><a href="resume.html">Resume</a></div>
+        <div class="contacts"><a href="contacts.html">Contacts</a></div>
+      </div>
     </header>
     <main>
-      <div>
+      <div class="resume-profile">
         <h2>Profile</h2>
         <p>Add your resume summary/profile here. Add more paragraphs or links as needed.</p>
         <a href="index.html">Back to homepage</a>
@@ -20,29 +25,41 @@
       <div class="work-history">
         <h2 class="work-history-header">Work Experience</h2>
         <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
-        <div class="job-input">
-          <h3 id="job-title-1" >Job title</h3>
-          <p>Company Name</p>
-          <p>Date at job</p>
-          <p>Job summary goes here. Add as many paragraphs as you need.</p>
-          <p>Optional list:</p>
-          <ul>
-            <li>placeholder job title</li>
-            <li>Created...</li>
-            <li>Lead...</li>
-            <li>Responsible for...</li>
-          </ul>
+        <div class="job-entry">
+          <h3 class="job-title">Job Title</h3>
+          <p class="company-name">Company Name</p>
+          <p class="job-dates">Date Range (e.g., Jan 2020 - Dec 2022)</p>
+          
+          <div class="job-summary">
+            <p><strong>Summary:</strong> A brief overview of your role and key responsibilities. Provide context and impact of your work in one or two sentences.</p>
+          </div>
+        
+          <div class="job-achievements">
+            <p><strong>Key Achievements:</strong></p>
+            <ul>
+              <li>Achievement or responsibility 1</li>
+              <li>Achievement or responsibility 2</li>
+              <li>Achievement or responsibility 3</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div  class="education">
+      <div class="education-entry">
         <h2 class="education-header">Education</h2>
-        <div class="education-history">
-          <h3>Advance high</h3>
-          <p>graduated class of 2006</p>
-          <h4>Itt-tech</h4>
-          <p>Unable to complete do to school closing</p>
-          <h5>Codefi</h5>
-          <p>Completed fullstack web developer course</p>
+      
+        <div class="education-item">
+          <h3 class="institution-name">Advance High School</h3>
+          <p class="graduation-date">Graduated, Class of 2006</p>
+        </div>
+      
+        <div class="education-item">
+          <h3 class="institution-name">ITT Technical Institute</h3>
+          <p class="status">Incomplete (Institution closed)</p>
+        </div>
+      
+        <div class="education-item">
+          <h3 class="institution-name">Codefi</h3>
+          <p class="course-completion">Completed Full-Stack Web Developer Course</p>
         </div>
       </div>
     </main>

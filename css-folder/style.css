@@ -29,20 +29,22 @@ nav  a {
     text-decoration:none;
  }
 
-.home {
+.nav-home {
+    /*display: flex;
+    align-items: center;*/
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.resume {
+.nav-resume {
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.contacts {
+.nav-contacts {
     margin-right: 10px;
     margin-bottom: 10px;
 }
-.intro {
-    border: white solid 2px;
+.home-intro {
+    /*border: white solid 2px;*/
     text-align: center;
     font-family: Georgia ,serif;
     height: 100vh;
@@ -59,19 +61,36 @@ main {
     
     
 }
+.home-intro-first {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.home-intro-second {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.home-intro-third {
+    text-align: center;
+    font-size: 1.25rem;
+}
+.contacts-intro{
+    /*border: red solid 2px;*/
+    margin: 0 auto;
+    width: 100%;
+}
+
+.constacts-into-text {
+    text-align:  center;
+    font-size: 1.88rem;
+}
 .contacts-github {
     display: flex;
     flex-direction: column;
     width: 100%;
     /*border: white solid 2px;*/
     margin-top: auto;
-}
-.contacts-intro{
-    /*border: red solid 2px;*/
-    text-align:  center;
-    font-size: 22px;
-    margin: 0 auto;
-    width: 100%;
 }
 
 .githubimg {
@@ -82,6 +101,10 @@ main {
     width: 100px;
 }
 
+.github-text {
+    font-size: 1.25rem;
+
+}
 .contacts-Linkedin { 
     display: flex;
     flex-direction: column;
@@ -97,6 +120,7 @@ main {
 
 .linkedintext {
     text-align: right;
+    font-size: 1.25rem;
 }
 .contacts-codedex {
     display: flex;
@@ -113,6 +137,18 @@ main {
 .codedex-logo {
     width: 200px;
 }
+
+.codedex-text {
+    font-size: 1.25rem;
+}
+.contacts-insperation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;

@@ -1,4 +1,9 @@
 
+.header-name {
+    diplay:flex
+    align-items: center;
+}
+
 body {
     background-color: #101213;
     background-image:
@@ -24,6 +29,7 @@ nav {
     display: flex;
     justify-content: center;
     font-size: 22px;
+    padding-top: 10px;
 }
 nav  a {
     text-decoration:none;
@@ -48,6 +54,7 @@ nav  a {
     text-align: center;
     font-family: Georgia ,serif;
     height: 100vh;
+    width:100%;
 }
 
 main {
@@ -61,7 +68,9 @@ main {
     
     
 }
+
 .home-intro-first {
+    padding-top: 10px;
     text-align: center;
     font-size: 1.25rem;
 }
@@ -72,6 +81,12 @@ main {
 }
 
 .home-intro-third {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.home-into-fourth {
+    padding-top: 10px;
     text-align: center;
     font-size: 1.25rem;
 }

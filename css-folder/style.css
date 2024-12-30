@@ -17,17 +17,35 @@ body {
     color: #E6E8E6;
     text-shadow: black 0px 0px 3px;
 }
-/*.header-name {
-    text-align: ;
-}    had to leave here */
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header-logo {
+    display: inline-flex;
+    width: auto;
+    flex-shrink: 0;
+}
+.header-logo img{
+    border: solid rgb(216, 150, 17) 2px;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}    
 nav {
     background-color: #4A6FA5;
     border: solid black 2px;
     border-radius: 2px;
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
+    justify-content: flex-end;
     font-size: 22px;
     padding-top: 10px;
+    position: absolute;  /* Position nav absolutely inside the header */
+    right: 0;  /* Align it to the right */
+    top: 0;  /* Align it to the top */
+    margin-left: auto;
 }
 nav  a {
     text-decoration:none;

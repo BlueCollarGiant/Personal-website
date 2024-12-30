@@ -1,8 +1,4 @@
 
-.header-name {
-    diplay:flex
-    align-items: center;
-}
 
 body {
     background-color: #101213;
@@ -21,7 +17,9 @@ body {
     color: #E6E8E6;
     text-shadow: black 0px 0px 3px;
 }
-
+/*.header-name {
+    text-align: ;
+}    had to leave here */
 nav {
     background-color: #4A6FA5;
     border: solid black 2px;
